@@ -11,7 +11,7 @@ export default function App() {
 
     if (isCalculated && (typeof (val) === "number")) {
       setScreenValue("");
-      value = false;
+      value = '';
     }
     setScreenValue(value + val)
     setIsCalculated(false);
